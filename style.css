@@ -48,7 +48,23 @@ header{
 /* Navigation */
 nav{
     display:flex;
-    gap:25px;
+    flex-direction: column;
+    position: absolute;
+    top: 80px;
+    right: 20px;
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+nav.show{
+    display: flex;
+}
+
+.menu-btn{
+    font-size: 30px;
+    color: white;
+    cursor: pointer;
 }
 
 nav a{
