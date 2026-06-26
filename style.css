@@ -320,3 +320,39 @@ audio{
     height:220px;
     object-fit:cover;
 }
+.latest-mixes{
+    width:90%;
+    margin:auto;
+    text-align:center;
+}
+
+.latest-mixes h2{
+    color:gold;
+    margin:20px 0;
+}
+
+.mix-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
+    gap:20px;
+}
+
+.mix-item{
+    text-decoration:none;
+    color:white;
+}
+
+.mix-item img{
+    width:100%;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.mix-item img:hover{
+    transform:scale(1.05);
+}
+
+.mix-item h3{
+    margin-top:10px;
+    font-size:16px;
+}
